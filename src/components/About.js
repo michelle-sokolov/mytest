@@ -8,7 +8,6 @@ const mystyle = {
   marginRight: "150px"
 };
 const styler = {
-  fontSize: "36px",
   fontWeight: "bold",
   width: "1000px"
 };
@@ -28,7 +27,9 @@ function About() {
       <br />
       <center>
         <div className="about">
-          <div style={styler}> About Us</div>
+          <div style={styler}>
+            <h1> About Us</h1>
+          </div>
           <p style={mystyle}>
             This company was born out of a period of my life that would be
             largely considered a low point and series of unfortunate events. I

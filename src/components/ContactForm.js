@@ -5,7 +5,7 @@ const mystyle = {
   contentAlign: "center",
   padding: "25px",
   width: "500px",
-  height: "500px",
+  height: "550px",
   bottomPadding: "100px"
 };
 
@@ -54,6 +54,11 @@ export default class ContactForm extends React.Component {
           action="https://formspree.io/xyypebqn"
           method="POST"
         >
+          <label>Name:</label>
+          <br />
+          <input type="name" name="name" style={{ width: "300px" }} />
+          <br />
+          <br />
           <label>Email:</label>
           <br />
           <input type="email" name="email" style={{ width: "300px" }} />
@@ -67,7 +72,7 @@ export default class ContactForm extends React.Component {
           <label>Message:</label>
           <br />
           <input
-            style={{ height: "200px", width: "400px" }}
+            style={{ height: "100px", width: "300px" }}
             type="text"
             name="message"
           />

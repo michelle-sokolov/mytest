@@ -16,7 +16,7 @@ function Footer() {
       <br />
       <center>
         <li className="list-unstyled">
-          <a href="#!">Link 1</a>
+          <a href="#!">Instagram</a>
         </li>
         <li className="list-unstyled">
           <a href="#!">Link 2</a>
